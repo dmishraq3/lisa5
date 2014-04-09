@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Request>
+  <AfterbuyGlobal>
+    <PartnerID>106484</PartnerID>
+	<PartnerPassword><![CDATA[JPfoWqZpOhrmYR9LP7SYh)2J(]]></PartnerPassword>
+    <UserID><![CDATA[dbhattacharjee]]></UserID>
+    <UserPassword><![CDATA[Q3tech123]]></UserPassword>
+    <CallName>GetStockInfo</CallName>
+    <DetailLevel>0</DetailLevel>
+    <ErrorLanguage>EN</ErrorLanguage>
+  </AfterbuyGlobal>
+  <RequestAllItems>0</RequestAllItems>
+  <DataFilter>
+  	<!--
+    <Filter>
+     <FilterName>DateFilter</FilterName>
+     <FilterValues>
+       <DateFrom>01.01.2014 00:00:00</DateFrom>
+       <DateTo>10.03.2014 23:00:00</DateTo>
+       <FilterValue>AuctionEndDate</FilterValue>
+       <FilterValue>FeedbackDate</FilterValue>
+     </FilterValues>
+    </Filter>
+
+    <Filter>
+     <FilterName>OrderID</FilterName>
+     <FilterValues>
+       <FilterValue>219873229</FilterValue>
+     </FilterValues>
+    </Filter>
+	  -->
+    <Filter>
+     <FilterName>RangeID</FilterName>
+     <FilterValues>
+       <ValueFrom>1</ValueFrom>
+       <ValueTo>999999999</ValueTo>
+     </FilterValues>
+    </Filter>
+	<!--
+    <Filter>
+     <FilterName>DefaultFilter</FilterName>
+     <FilterValues>
+       <FilterValue>InvoicePrinted</FilterValue>
+     </FilterValues>
+    </Filter>
+	-->
+  </DataFilter>
+</Request>

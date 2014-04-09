@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Request>
+  <AfterbuyGlobal>
+    <PartnerID>[PARTNER_ID]</PartnerID>
+    <PartnerPassword>[PARTNER_PWD]</PartnerPassword>
+    <UserID>[USER_ID]</UserID>
+    <UserPassword>[USER_PWD]</UserPassword>
+    <CallName>GetShopProducts</CallName>
+    <DetailLevel>2</DetailLevel>
+    <ErrorLanguage>[ERROR_LANGUAGE]</ErrorLanguage>
+  </AfterbuyGlobal>
+  <PaginationEnabled> 1 </PaginationEnabled>
+  <PageNumber>[PAGE_NUMBER]</PageNumber>
+  <MaxShopItems>[MAX_SHOP_ITEMS]</MaxShopItems>
+</Request>

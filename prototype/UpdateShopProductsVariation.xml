@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Request>
+  <AfterbuyGlobal>
+    <PartnerID>[PARTNER_ID]</PartnerID>
+    <PartnerPassword>[PARTNER_PWD]</PartnerPassword>
+    <UserID>[USER_ID]</UserID>
+    <UserPassword>[USER_PWD]</UserPassword>
+    <CallName>UpdateShopProducts</CallName>
+    <DetailLevel>0</DetailLevel>
+    <ErrorLanguage>[ERROR_LANGUAGE]</ErrorLanguage>
+  </AfterbuyGlobal>
+  <Products>
+    <Product>
+      <ProductIdent>
+          <BaseProductType>[BASE_PRODUCT_TYPE]</BaseProductType>
+          <ProductInsert>[PROD_INSERT]</ProductInsert>
+          <UserProductID>[USER_PROD_ID]</UserProductID>
+          <ProductID>[AB_PROD_ID]</ProductID>
+          <Anr>[PROD_ANR]</Anr>
+          <EAN>[PROD_EAN]</EAN>
+      </ProductIdent>
+        <Name><![CDATA[[PROD_NAME]]]></Name>
+         <ShortDescription><![CDATA[[PROD_SHORT_DESC]]]></ShortDescription>
+      <Memo><![CDATA[TestMemo]]></Memo>
+      <Description><![CDATA[[PROD_SHORT_DESC]]]></Description>
+      <Keywords><![CDATA[TestKeywords]]></Keywords>
+      <Quantity>[PROD_QUANTITY]</Quantity>
+      <AuctionQuantity>0</AuctionQuantity>
+      <Stock>1</Stock>
+      [ADD_BASE_PRODUCTS]
+      [EBAY_VARIATIONS]
+      <ImageSmallURL>http://115.113.189.47/internal/dipanjan/prod_small.jpg</ImageSmallURL>
+      <ImageLargeURL>http://115.113.189.47/internal/dipanjan/prod.jpg</ImageLargeURL>
+     </Product>
+  </Products>
+</Request>

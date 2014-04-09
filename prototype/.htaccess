@@ -1,0 +1,5 @@
+AuthUserFile /var/www/html/lisa/prototype/.htpasswd
+AuthName "Please login to view application" 
+AuthType Basic
+require valid-user
+
